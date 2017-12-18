@@ -9,10 +9,7 @@ const Header = () => (
   <header className="bt bw3 b--navy black-80 pv5">
     <div className="ph3 ph5-ns">
       <div className="cf w-100 center mw9">
-        <div
-          className="f1 fw6 ttu tracked f-subheadline-l lh-copy lh-title-l"
-          style={{ fontFamily: "Tungsten A, Tungsten B" }}
-        >
+        <div className="f1 fw6 ttu tracked f-subheadline-l lh-copy lh-title-l">
           Jeff Pamer
         </div>
         <div className="f4 lh-copy measure">
