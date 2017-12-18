@@ -87,7 +87,7 @@ const IndexPage = () => (
             )}
             {expertise(
               "Elm",
-              "I'm intrigued by the more functional styled compiled-to-JS languages. I explored Clojure/ClojureScript last year, and am diving into Elm this year. I think there is a lot to learn from these languages in regards to building elegant interfaces."
+              "I'm intrigued by functional compile-to-JS languages. I explored Clojure/ClojureScript last year, and am diving into Elm this year. I think there is a lot to learn from these languages in regards to building elegant interfaces."
             )}
           </div>
         </section>
