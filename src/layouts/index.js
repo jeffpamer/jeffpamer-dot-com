@@ -1,15 +1,18 @@
-import React from "react";
-import PropTypes from "prop-types";
-import Link from "gatsby-link";
-import Helmet from "react-helmet";
+import React from 'react';
+import PropTypes from 'prop-types';
+import Link from 'gatsby-link';
+import Helmet from 'react-helmet';
 
-import "tachyons/css/tachyons.min.css";
+import 'tachyons/css/tachyons.min.css';
 
 const Header = () => (
   <header className="bt bw3 b--navy black-80 pv5">
     <div className="ph3 ph5-ns">
       <div className="cf w-100 center mw9">
-        <div className="f1 fw6 ttu tracked f-subheadline-l lh-copy lh-title-l">
+        <div
+          className="f1 fw6 ttu tracked f-subheadline-l lh-copy lh-title-l"
+          style={{ fontFamily: 'Tungsten A, Tungsten B' }}
+        >
           Jeff Pamer
         </div>
         <div className="f4 lh-copy measure">
@@ -29,21 +32,21 @@ const TemplateWrapper = ({ children }) => (
       title="Jeff Pamer"
       meta={[
         {
-          name: "description",
+          name: 'description',
           content:
-            "Jeff Pamer is a creative full-stack software developer with a love for User Interfaces and a champion for the value of aesthetics."
+            'Jeff Pamer is a creative full-stack software developer with a love for User Interfaces and a champion for the value of aesthetics.'
         },
         {
-          name: "keywords",
+          name: 'keywords',
           content:
-            "pamer, los angeles, software developer, resume, react, javascript, threejs"
+            'pamer, los angeles, software developer, resume, react, javascript, threejs'
         }
       ]}
       link={[
         {
-          rel: "stylesheet",
-          type: "text/css",
-          href: "//cloud.typography.com/6718032/7737392/css/fonts.css"
+          rel: 'stylesheet',
+          type: 'text/css',
+          href: '//cloud.typography.com/6718032/7737392/css/fonts.css'
         }
       ]}
     />
